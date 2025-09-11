@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+I am Madhusudan Regmi. I am the student of lab university of Applied Sciences. I am currently learning Industrial Information Technology. My group number is TLTIIIT25S
 <!--
 **Madhusudan24605/Madhusudan24605** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
