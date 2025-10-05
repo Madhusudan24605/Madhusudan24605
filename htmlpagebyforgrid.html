@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Flexbox Page</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    .menu {
+      display: flex;
+      background: #333;
+      justify-content: center;
+    }
+
+    .menu a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .menu a:hover {
+      background: #555;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .box {
+      width: 300px;
+      margin: 10px;
+      background: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <h2>Welcome</h2>
+      <p>This page uses Flexbox to show boxes side by side.</p>
+    </div>
+
+    <div class="box">
+      <img src="https://www.w3schools.com/w3images/lights.jpg" alt="lights">
+      <p>Image of Northern lights</p>
+    </div>
+
+    <div class="box">
+      <img src="https://wl-brightside.cf.tsp.li/resize/728x/webp/47d/913/1e700e552694c01e854b82c2c9.jpg.webp" alt="custom image">
+      <p>Spinning Ball</p>
+    </div>
+  </div>
+
+  <footer>
+    Simple Flexbox Page by Madhusudan Regmi
+  </footer>
+
+</body>
+</html>
